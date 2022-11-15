@@ -3,7 +3,7 @@
 - This repository contains the code and the dataset
 ## Citation
 ```
-@INPROCEEDINGS{9860799,
+@INPROCEEDINGS{2022_Chang,
   author={Chang, Hsin-Yuan and Hsu, Chih-Hsuan and Chung, Wei-Ho},
   booktitle={2022 IEEE 95th Vehicular Technology Conference: (VTC2022-Spring)}, 
   title={Fast Acquisition and Accurate Vital Sign Estimation with Deep Learning-Aided Weighted Scheme Using FMCW Radar}, 
