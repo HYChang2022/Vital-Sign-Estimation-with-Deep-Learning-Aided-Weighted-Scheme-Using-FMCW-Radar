@@ -7,7 +7,11 @@
    - ground_truth directory contains the reference label for the respiration rate and heart rate 
    - measure directory contains the received radar signal
    - The duration of radar signal is of 180 seconds, the reference label is recorded with a sliding window size of six seconds and an overlap of five seconds
-- The paper directory contains the implemented code of our work as well as the dataset, which is identical to the data directory except for some format settings to fit our method framework.
+- The DAWS_algorithm_code directory contains the implemented code of our work as well as the preprocessing for dataset.
+   - First copy "rawData_* .bin" files  from data directories and run the "DAWS_algorithm_code\data preprocessing\bin to mat\bin_to_mat.m" code to acquire "radarSignal_* .mat" files. Note that the input and output settings of files in "bin_to_mat.m" might require manual set. 
+   - Unzip "DAWS_algorithm_code\data\data_beat_test\breathing\ground_truth.zip". Note that there are four zipped files in total.
+   - Run "DAWS_algorithm_code\RPM_generator.m"
+   - Now you are ready to train DAWS with "DAWS_algorithm_code\CNN_breath.py"
 ## Citation
 ```
 @INPROCEEDINGS{2022_Chang,
